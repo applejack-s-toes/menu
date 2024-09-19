@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            animation-name: box-colour;
+            animation-duration: 6s;
+            width: 300px;
+            height: 300px;
+            padding: 10px;
+            font-size: 2em;
+            background-color: aquamarine;
+        }
+        @keyframes box-colour {
+            0%{
+                background-color: aliceblue;
+                transform: translateX(0px);
+
+            }
+            50%{
+                background-color: antiquewhite;
+                transform: translateX(90px);
+
+            }
+            100%{
+                background-color: beige;
+                transform: translateX(180px);
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <h2>Keyframe Animation</h2>
+    </div>
+</body>
+</html>
